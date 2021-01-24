@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+<title>Polls app</title>
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+</head>
+
+<body>
+
+<!-- Container -->
+<div id="content">
+    {% block content %}
+    {% endblock %}    
+</div>
+<!-- END Container -->
+</body>
+</html>
